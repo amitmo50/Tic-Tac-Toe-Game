@@ -1,0 +1,50 @@
+.main-title {
+	text-align: center;
+	height: 10%;
+    font-size: 55px;
+    font-style: italic;
+    font-family: "Times New Roman";
+    background-image: url(https://t3.ftcdn.net/jpg/00/88/58/40/240_F_88584036_AuOhtryxGEd4uy7vx9vpl5CdFXsCjwNk.jpg);
+    color: white;
+    border: 2px solid rgba(127, 37, 37, 0.44);
+    border-radius: 15px;
+}
+.main-content {
+	height: 90%;
+}
+
+.game-container .row-one:hover, .game-container .row-two:hover, .game-container .row-three:hover {
+    background-color: #da7a7a;
+}
+
+.game-container {
+	margin-top: 30px;
+    font-weight: bolder;
+    width: 100%;
+    height: 100%;
+    float: left;
+
+
+}
+
+.game-container .row-one, .game-container .row-two, .game-container .row-three {
+	width: 25%;
+    height: 17%;
+    background-color: #daaf7a;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 5px 5px 5px;
+    border: solid 2px;
+    position: relative;
+     
+
+}
+
+
+.image {
+	display: none;
+	width: 50px;
+	height: 50px;
+}
