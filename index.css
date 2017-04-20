@@ -1,5 +1,5 @@
 .main-title {
-	text-align: center;
+    text-align: center;
 	height: 10%;
     font-size: 55px;
     font-style: italic;
@@ -18,8 +18,8 @@
 }
 
 .game-container {
-	margin-top: 30px;
-    font-weight: bolder;
+    margin-top: 15px;
+    margin-left: 70px;
     width: 100%;
     height: 100%;
     float: left;
@@ -29,7 +29,7 @@
 
 .game-container .row-one, .game-container .row-two, .game-container .row-three {
 	width: 25%;
-    height: 17%;
+    height: 30%;
     background-color: #daaf7a;
     color: black;
     border-radius: 20px;
@@ -38,13 +38,29 @@
     margin: 0px 5px 5px 5px;
     border: solid 2px;
     position: relative;
+    text-align: center;
      
 
 }
+.reset{
+    width: 80%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
 
+.o-image, .x-image {
+	width: 100%;
+	height: 100%;
+}
 
-.image {
-	display: none;
-	width: 50px;
-	height: 50px;
+.button-image{
+    cursor: pointer;
+    width: 20%;
+    height: 80%;
+    display: table-column;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
